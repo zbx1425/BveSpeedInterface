@@ -11,7 +11,7 @@ This plugin listens on UDP port 10492. The port can be changed by modifying Inpu
 You can control the plugin by sending UDP messages (all lowercase).
 
 - `setspeed <NUMBER>`  
-Sets the speed.
+Sets the speed. Integer only, due to BVE limitations.
 
 - `setspeedauto <0/1>`  
 If 0, the speed is only set once when `setspeed`. If 1, the speed is set every frame, making the train keep the speed specified by `setspeed`. Default is 0. Send this message once and its value will be remembered.
