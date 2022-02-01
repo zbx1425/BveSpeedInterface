@@ -29,7 +29,7 @@ namespace BveDebugWindowInput {
         }
 
         public void Load(string settingsPath) {
-            server.Listen("127.0.0.1", 10492);
+            server.Listen("0.0.0.0", 10492);
         }
 
         private int[][] axisRanges;
